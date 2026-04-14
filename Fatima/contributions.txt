@@ -1,0 +1,22 @@
+===========================================================
+                JOURNAL DES CONTRIBUTIONS
+===========================================================
+
+LUNDI 13 AVRIL 2026 :
+- Initialisation du dépôt GitHub.
+- Rédaction complète du README (objectifs, prérequis et guide).
+- Configuration de l'arborescence (création du dossier /Fatima 
+  et le fichier des contributions).
+- Conception du fichier Calculateur.java avec la méthode
+  de calcul de la moyenne et les déclancheurs d'erreurs.
+
+-----------------------------------------------------------
+PROCHAINES ÉTAPES :
+-----------------------------------------------------------
+
+- Création de la classe Main.java (orchestration de l'application).
+- Implémentation des méthodes de calcul (min et max) et intégration.
+- Création du fichier de test donnees.csv.
+- Validation finale et tests unitaires.
+
+Dernière mise à jour : 23h06
