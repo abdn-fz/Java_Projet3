@@ -25,13 +25,16 @@ JEUDI 16 AVRIL 2026 :
 JEUDI 17 AVRIL 2026 :
   - Ajout des méthodes calculerMin() et calculerMax() dans
     Calculateur.java avec validation des données intégrée.
+LUNDI 20 AVRIL 2026 :
+
+- Création de la classe LecteurCSV.java :
 
 ===========================================================
 PROCHAINES ÉTAPES :
 ===========================================================
 
-- Création de la classe Main.java (orchestration de l'application).
-- Création du fichier de test donnees.csv.
-- Validation finale et tests unitaires.
+- Création de la classe Main.java pour lier le lecteur et le calculateur
+- Création d'un fichier de test donnees.csv avec plusieurs colonnes
+- Bonus : Implémentation de l'exportation du rapport statistique dans un fichier resume.csv
 
 Dernière mise à jour : 20 avril 2026
