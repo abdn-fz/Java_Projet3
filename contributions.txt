@@ -1,0 +1,40 @@
+===========================================================
+                JOURNAL DES CONTRIBUTIONS
+===========================================================
+
+Étudiante : Fatima Zohra Aboudeine
+Programme : Sciences des données appliquées (Coop)
+Module    : Programmation avancée
+
+===========================================================
+TRAVAIL RÉALISÉ
+===========================================================
+
+LUNDI 13 AVRIL 2026 :
+- Initialisation du dépôt GitHub.
+- Rédaction complète du README (objectifs, prérequis et guide).
+- Configuration de l'arborescence (création du dossier /Fatima 
+  et le fichier des contributions).
+- Conception du fichier Calculateur.java avec la méthode
+  de calcul de la moyenne et les déclancheurs d'erreurs.
+
+JEUDI 16 AVRIL 2026 :
+  - Modification de Calculateur.java : méthodes rendues statiques
+    pour faciliter l'orchestration depuis Main.java.
+
+JEUDI 17 AVRIL 2026 :
+  - Ajout des méthodes calculerMin() et calculerMax() dans
+    Calculateur.java avec validation des données intégrée.
+LUNDI 20 AVRIL 2026 :
+
+- Création de la classe LecteurCSV.java :
+
+===========================================================
+PROCHAINES ÉTAPES :
+===========================================================
+
+- Création de la classe Main.java pour lier le lecteur et le calculateur
+- Création d'un fichier de test donnees.csv avec plusieurs colonnes
+- Bonus : Implémentation de l'exportation du rapport statistique dans un fichier resume.csv
+
+Dernière mise à jour : 20 avril 2026
