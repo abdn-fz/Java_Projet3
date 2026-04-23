@@ -50,7 +50,7 @@ public class LecteurCSV {
                     // Ajouter ce nombre dans la liste temporaire qui de sa colonne
                     temp.get(i).add(nombre);
                 } catch (NumberFormatException e) {
-                    br.close();
+                    System.err.println("Valeur non numérique détectée");
 
                 }
             }
