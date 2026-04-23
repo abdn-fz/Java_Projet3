@@ -13,8 +13,8 @@ public class Calculateur implements Statistiques {
     public double calculerMoyenne(double[] donnees) {
         verifierDonnees(donnees);
         double total = 0;
-        for (double valeur : donnees) {
-            total += valeur;
+        for (int i = 0; i < donnees.length; i++) {
+            total += donnees[i];
         }
         return total / donnees.length;
     }
