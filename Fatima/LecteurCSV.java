@@ -8,17 +8,17 @@ import java.util.List;
 
 public class LecteurCSV {
 
-    // Méthode pour lire le csv et transférer les colonnes dans des tableaux :
+    // Méthode pour lire le csv et transfert des colonnes dans des tableaux :
     public static List<double[]> lireColonnes(String cheminFichier) throws IOException {
         
-        // Préparation du contenant :
+        // Préparation de la liste des tableaux pour recevoir les colonnes :
         List<double[]> colonnes = new ArrayList<>();
 
         // Lecture ligne par ligne :
         BufferedReader br = new BufferedReader(new FileReader(cheminFichier));
 
-        // Lire les titres :
-        String ligne = br.readLine(); 
+            // Lecture des titres (1ère ligne) :
+            String ligne = br.readLine(); 
 
         // Cas de fichier vide :
         if (ligne == null) {
@@ -42,14 +42,16 @@ public class LecteurCSV {
             // Découper la ligne actuelle en un tableau String[] :
             String[] valeurs = ligne.split(",");
 
-            // Parcourir chaque case de la ligne
+            // Parcourir chaque case de la ligne :
             for (int i = 0; i < valeurs.length; i++) {
                 try {
-                    // Convertir le texte en nombre (double)
+                    // Convertir le texte en nombre (double) :
                     double nombre = Double.parseDouble(valeurs[i].trim());
-                    // Ajouter ce nombre dans la liste temporaire qui de sa colonne
+                 
+                    // Ajouter ce nombre dans la liste temporaire qui de sa colonne :
                     temp.get(i).add(nombre);
-                } catch (NumberFormatException e) {
+                } 
+                catch (NumberFormatException e) {
                     System.err.println("Valeur non numérique détectée");
 
                 }
