@@ -44,6 +44,8 @@ JEUDI 23 AVRIL 2026 (Collaboration) :
 - Wren : Ajouter et mise a jour du fichier ressources.txt
 - Wren : Finission de la classe Rapport et Main
 - Wren : Ajouter le fichier donnees.csv à la racine du projet
+- Fatima : Optimisation des commentaires des classes personnelles
+- Fatima : Optimisation du fichier README
 
 ===========================================================
 PROCHAINES ÉTAPES (À FAIRE)
@@ -51,6 +53,5 @@ PROCHAINES ÉTAPES (À FAIRE)
 
 - Réaliser les tests complets du programme avant la remise finale (Fatima & Wren)
 - Nettoyage des commentaires dans les classes (Fatima & Wren)
-- Ajout d'un fichier zip prêt à être exécuté pour Intellij.
 
-Dernière mise à jour : 23 avril - 10:50
+Dernière mise à jour : 23 avril - 19:34
