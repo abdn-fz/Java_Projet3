@@ -41,6 +41,7 @@ JEUDI 23 AVRIL 2026 (Collaboration) :
 - Mise à jour du README pour refléter le travail d'équipe.
 - Ajout de la section d'exécution dans la documentation.
 - Wren : Ajout dans la classe Rapport.java.
+- Ajouter et mise a jour du fichier ressources.txt
 
 ===========================================================
 PROCHAINES ÉTAPES (À FAIRE)
