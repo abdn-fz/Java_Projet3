@@ -35,7 +35,7 @@ MERCREDI 22 AVRIL 2026 (Collaboration) :
 - Fatima : Création de l'interface Statistiques et refactorisation du Calculateur pour l'implémenter.
 - Fatima : Ajout des packages dans les déclarations de classes.
 - Fatima : Initialisation de la classe Rapport pour Wren.
-- Wren : Création et implémentation du fichier Main.java.
+- Wren : Création et implémentation de la classe Main.java.
 
 JEUDI 23 AVRIL 2026 (Fatima) :
 - Mise à jour du README pour refléter le travail d'équipe.
@@ -49,4 +49,4 @@ PROCHAINES ÉTAPES (À FAIRE)
 - Ajouter le fichier donnees.csv à la racine du projet (Fatima & Wren)
 - Réaliser les tests complets du programme avant la remise finale (Fatima & Wren)
 
-Dernière mise à jour : 23 avril 2026
+Dernière mise à jour : 23 avril - 10:50
