@@ -2,7 +2,8 @@
                 JOURNAL DES CONTRIBUTIONS
 ===========================================================
 
-Étudiante : Fatima Zohra Aboudeine
+Projet    : Analyse de données CSV (Projet 3)
+Étudiants : Fatima Zohra Aboudeine & Wren Surprenant-Nicolson
 Programme : Sciences des données appliquées (Coop)
 Module    : Programmation avancée
 
@@ -10,31 +11,42 @@ Module    : Programmation avancée
 TRAVAIL RÉALISÉ
 ===========================================================
 
-LUNDI 13 AVRIL 2026 :
-- Initialisation du dépôt GitHub.
-- Rédaction complète du README (objectifs, prérequis et guide).
-- Configuration de l'arborescence (création du dossier /Fatima 
-  et le fichier des contributions).
-- Conception du fichier Calculateur.java avec la méthode
-  de calcul de la moyenne et les déclancheurs d'erreurs.
+LUNDI 13 AVRIL 2026 (Fatima) :
+- Initialisation du dépôt GitHub et création du README initial.
+- Rédaction de la documentation complète (infos académiques, fonctionnalités).
+- Création de la classe Calculateur.java : calcul de la moyenne et gestion des exceptions.
+- Mise en place du journal des contributions.
 
-JEUDI 16 AVRIL 2026 :
-  - Modification de Calculateur.java : méthodes rendues statiques
-    pour faciliter l'orchestration depuis Main.java.
+JEUDI 16 AVRIL 2026 (Fatima) :
+- Optimisation : Méthodes de Calculateur.java rendues statiques pour faciliter l'orchestration.
 
-JEUDI 17 AVRIL 2026 :
-  - Ajout des méthodes calculerMin() et calculerMax() dans
-    Calculateur.java avec validation des données intégrée.
-LUNDI 20 AVRIL 2026 :
+VENDREDI 17 AVRIL 2026 (Fatima) :
+- Ajout des fonctionnalités de statistiques descriptives : méthodes min() et max().
+- Intégration de la validation des données d'entrée.
 
-- Création de la classe LecteurCSV.java :
+LUNDI 20 AVRIL 2026 (Fatima) :
+- Mise à jour du journal des contributions.
+
+MARDI 21 AVRIL 2026 (Fatima) :
+- Création de la classe LecteurCSV.java pour la gestion de l'extraction des données.
+- Réorganisation du dépôt : Déplacement du fichier des contributions à la racine.
+
+MERCREDI 22 AVRIL 2026 (Collaboration) :
+- Fatima : Création de l'interface Statistiques et refactorisation du Calculateur pour l'implémenter.
+- Fatima : Ajout des packages dans les déclarations de classes.
+- Fatima : Initialisation de la classe Rapport pour Wren.
+- Wren : Création et implémentation du fichier Main.java.
+
+JEUDI 23 AVRIL 2026 (Fatima) :
+- Mise à jour du README pour refléter le travail d'équipe.
+- Ajout de la section d'exécution dans la documentation.
 
 ===========================================================
-PROCHAINES ÉTAPES :
+PROCHAINES ÉTAPES (À FAIRE)
 ===========================================================
 
-- Création de la classe Main.java pour lier le lecteur et le calculateur
-- Création d'un fichier de test donnees.csv avec plusieurs colonnes
-- Bonus : Implémentation de l'exportation du rapport statistique dans un fichier resume.csv
+- Finaliser la classe Rapport (Wren)
+- Ajouter le fichier donnees.csv à la racine du projet (Fatima & Wren)
+- Réaliser les tests complets du programme avant la remise finale (Fatima & Wren)
 
-Dernière mise à jour : 20 avril 2026
+Dernière mise à jour : 23 avril 2026
