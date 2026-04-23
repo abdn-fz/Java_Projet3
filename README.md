@@ -31,11 +31,11 @@ Ce projet consiste à développer une application Java collaborative qui lit, va
 ## De quoi ai-je besoin ?
 
 * **Intellij :** Pour l'importation et l'exécution du projet.
-* **Le fichier `Projet_final.zip`** à décompresser et importer sur Intellij.
 
 ---
 
 ## Comment l'utiliser ?
 
-L'utilisation est simple : téléchargez le fichier `Projet_final.zip`, extrayez son contenu et ouvrez le projet sous IntelliJ. Vous pourrez ensuite exécuter directement le fichier `Main.java`
+L'utilisation est simple : téléchargez le projet en allant sur **`< > code` > `Download ZIP`**, décompressez le zip, puis sur Intellij, importez le projet en allant sur **`File` > `Open`**, puis exécutez la classe `Main.java` qui se trouve dans le dossier `Wren`.
+
 #### Merci d'avoir pris le temps de consulter notre projet !
