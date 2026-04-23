@@ -49,8 +49,11 @@ public class LecteurCSV {
                     double nombre = Double.parseDouble(valeurs[i].trim());
                     // Ajouter ce nombre dans la liste temporaire qui de sa colonne
                     temp.get(i).add(nombre);
-                } catch (Exception e) {
-                    System.err.println("Erreur : " + e.getMessage());                }
+                } catch (NumberFormatException e) {
+                    System.err.println("Erreur : " + e.getMessage());
+                    br.close();
+
+                }
             }
         }
 
