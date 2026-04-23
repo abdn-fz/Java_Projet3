@@ -30,13 +30,12 @@ Ce projet consiste à développer une application Java collaborative qui lit, va
 
 ## De quoi ai-je besoin ?
 
-* **Java SDK (JDK) :** Version 11 ou supérieure.
-* **Terminal/Console :** Pour l'exécution des commandes de compilation.
-* **Fichier de données :** Un fichier `donnees.csv` à la racine du projet contenant des valeurs numériques.
+* **Intellij :** Pour l'importation et l'exécution du projet.
+* **Le fichier `Projet_final.zip`** à décompresser et importer sur Intellij.
 
 ---
 
 ## Comment l'utiliser ?
 
-L'utilisation est simple : téléchargez le fichier `.zip`, extrayez son contenu et ouvrez le projet sous IntelliJ. Vous pourrez ensuite exécuter directement le fichier `Main.java`
+L'utilisation est simple : téléchargez le fichier `Projet_final.zip`, extrayez son contenu et ouvrez le projet sous IntelliJ. Vous pourrez ensuite exécuter directement le fichier `Main.java`
 #### Merci d'avoir pris le temps de consulter notre projet !
