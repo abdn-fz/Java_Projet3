@@ -1,1 +1,5 @@
+Dipayan. (2015, April 22). Calculating Average from a CSV File. Stack Overflow. https://stackoverflow.com/questions/29802763/calculating-average-from-a-csv-file
 
+GeeksforGeeks. (2025, November 4). Java.io.BufferedReader class in Java. GeeksforGeeks. https://www.geeksforgeeks.org/java/java-io-bufferedreader-class-java/
+
+Tezvi. (2017, March 3). Sum of CSV column in Java. Stack Overflow. https://stackoverflow.com/questions/42584203/sum-of-csv-column-in-java
