@@ -16,7 +16,7 @@ public class Main {
 
       System.out.println("--- ANALYSE EN COURS ---");
 
-      for (int = 0; i < donnees. size(); i++) {
+      for (int i = 0; i < donnees. size(); i++) {
         double[] col = donnees.get(i);
         String titre = (i < noms.length) ? noms[i] : "Col " + i;
 
