@@ -46,3 +46,11 @@ Pour compiler le projet en incluant les deux dossiers d'étudiants, utilisez la 
 
 ```bash
 javac Fatima/*.java Wren/*.java
+```
+
+### 3. Exécution
+Puisque le point d'entrée (`Main.java`) est situé dans le dossier de Wren, lancez l'application avec :
+
+```bash
+java Wren.Main
+```
