@@ -38,19 +38,5 @@ Ce projet consiste à développer une application Java collaborative qui lit, va
 
 ## Comment l'utiliser ?
 
-### 1. Préparation
-Placez votre fichier de données nommé `donnees.csv` à la racine du projet.
-
-### 2. Compilation
-Pour compiler le projet en incluant les deux dossiers d'étudiants, utilisez la commande suivante à la racine :
-
-```bash
-javac Fatima/*.java Wren/*.java
-```
-
-### 3. Exécution
-Puisque le point d'entrée (`Main.java`) est situé dans le dossier de Wren, lancez l'application avec :
-
-```bash
-java Wren.Main
-```
+L'utilisation est simple : téléchargez le fichier `.zip`, extrayez son contenu et ouvrez le projet sous IntelliJ. Vous pourrez ensuite exécuter directement le fichier `Main.java`
+#### Merci d'avoir pris le temps de consulter notre projet !
