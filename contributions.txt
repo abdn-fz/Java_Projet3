@@ -42,12 +42,12 @@ JEUDI 23 AVRIL 2026 (Collaboration) :
 - Ajout de la section d'exécution dans la documentation.
 - Wren : Ajout dans la classe Rapport.java.
 - Ajouter et mise a jour du fichier ressources.txt
+- Wren : Finission de la classe Rapport et Main
 
 ===========================================================
 PROCHAINES ÉTAPES (À FAIRE)
 ===========================================================
 
-- Finaliser la classe Rapport (Wren)
 - Ajouter le fichier donnees.csv à la racine du projet (Fatima & Wren)
 - Réaliser les tests complets du programme avant la remise finale (Fatima & Wren)
 - Nettoyage des commentaires dans les classes (Fatima & Wren)
