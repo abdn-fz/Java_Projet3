@@ -28,8 +28,9 @@ public class Main {
                           calc.calculerMax(col));
       }
 
-
-
+      // Génération du rapport Bonus
+      Rapport.genererCSV(fichierSortie, noms, donnees);
+      System.out.println("\nRapport généré : " + fichierSortie);
       
     } catch (Exception e) {
       System.err.println("Erreur: " + e.getMessage());
