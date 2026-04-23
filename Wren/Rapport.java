@@ -1,4 +1,6 @@
 package Wren;
+import Fatima.Calculateur; 
+import Fatima.LecteurCSV;
 
 import java.io.FileWriter;
 import java.io.IOException;
