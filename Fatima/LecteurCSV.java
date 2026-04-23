@@ -50,8 +50,7 @@ public class LecteurCSV {
                     // Ajouter ce nombre dans la liste temporaire qui de sa colonne
                     temp.get(i).add(nombre);
                 } catch (Exception e) {
-                    // Si ce n'est pas un nombre (texte vide, erreur), on ignore et on passe à la suite
-                }
+                    System.err.println("Erreur : " + e.getMessage());                }
             }
         }
 
