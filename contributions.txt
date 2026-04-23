@@ -48,5 +48,6 @@ PROCHAINES ÉTAPES (À FAIRE)
 - Finaliser la classe Rapport (Wren)
 - Ajouter le fichier donnees.csv à la racine du projet (Fatima & Wren)
 - Réaliser les tests complets du programme avant la remise finale (Fatima & Wren)
+- Nettoyage des commentaires dans les classes (Fatima & Wren)
 
 Dernière mise à jour : 23 avril - 10:50
