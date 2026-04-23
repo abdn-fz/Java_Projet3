@@ -24,9 +24,14 @@ public class Rapport {
       double min = calc.calculerMin(data);
       double max = calc.calculerMax(data);
 
-      // Sécurité si le fichier CSV a plus de colonnes que de noms
-      String nomColonne = (i < noms.length) ? noms[i] : "Col" + i;
-
+      // regarder si le fichier CSV a plus de colonnes que de noms
+      String nomColonne;
+      if (i < noms.length) {
+        nomColonne = noms[i];
+      } else {
+        nomColonne = "Col" + i;
+      }
+ 
       writer.write(nomColonne + "," + moyenne + "," + min + "," + max + "\n");
     }
     writer.close();
