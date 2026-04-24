@@ -27,6 +27,7 @@ public class Main {
           titre = noms[i];
         } else {
           titre = "Col" + i;
+        }
           
         // Utilisation de l'objet 'calc'
         System.out.println("\nNom: " + titre);
