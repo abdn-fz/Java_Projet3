@@ -2,13 +2,14 @@ package Fatima;
 
 public class Calculateur implements Statistiques {
 
+    // Méthode pour vérifier si le dénominateur est nul et déclancher une erreur si c'est le cas :
     private void verifierDonnees(double[] donnees) {
         if (donnees == null || donnees.length == 0) {
             throw new IllegalArgumentException("Le tableau de données est vide ou null.");
         }
     }
 
-
+    // Méthode pour le calcul de la moyenne :
     @Override
     public double calculerMoyenne(double[] donnees) {
         verifierDonnees(donnees);
@@ -19,7 +20,7 @@ public class Calculateur implements Statistiques {
         return total / donnees.length;
     }
 
-
+    // Méthode pour le calcul du min :
     @Override
     public double calculerMin(double[] donnees) {
         verifierDonnees(donnees);
@@ -32,7 +33,7 @@ public class Calculateur implements Statistiques {
         return min;
     }
 
-
+    // Méthode pour le calcul du max :
     @Override
     public double calculerMax(double[] donnees) {
         verifierDonnees(donnees);
