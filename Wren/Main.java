@@ -1,6 +1,8 @@
 package Wren;
 import Fatima.Calculateur; 
 import Fatima.LecteurCSV;
+import Fatima.Statistiques;
+
 
 import java.util.List;
 
