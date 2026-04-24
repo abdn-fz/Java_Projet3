@@ -22,8 +22,12 @@ public class Main {
 
       for (int i = 0; i < donnees. size(); i++) {
         double[] col = donnees.get(i);
-        String titre = (i < noms.length) ? noms[i] : "Col " + i;
-
+        String titre; // On déclare la variable d'abord
+        if (i < noms.length) {
+          titre = noms[i];
+        } else {
+          titre = "Col" + i;
+          
         // Utilisation de l'objet 'calc'
         System.out.println("\nNom: " + titre);
         System.out.printf("Moyenne: %.2f | Minimum: %.1f | Maximum: %.1f%n",
