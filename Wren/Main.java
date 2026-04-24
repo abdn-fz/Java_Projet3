@@ -10,7 +10,7 @@ public class Main {
     String fichierSortie = "resume.csv";
 
     // On crée l'objet ici (car on utilise une interface)
-    Calculateur calc = new Calculateur();
+    Statistiques calc = new Calculateur();
 
     try {
       String[] noms = LecteurCSV.lireNomsColonnes(fichierEntree);
